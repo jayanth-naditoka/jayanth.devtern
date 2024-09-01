@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1529070538774-1843cb3265df');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        .landing-container {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 50px 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            max-width: 1200px;
+            margin: 50px auto;
+        }
+        .landing-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .features-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        .feature {
+            flex: 1 1 30%;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .feature img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .cta-section {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .cta-section button {
+            background-color: #ff6600;
+            border: none;
+            padding: 15px 30px;
+            color: #fff;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        @media (max-width: 768px) {
+            .features-row {
+                flex-direction: column;
+            }
+            .feature {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="landing-container">
+    <div class="landing-header">
+        <h1>Amazing Product</h1>
+        <p>Experience the future of technology with our cutting-edge product.</p>
+    </div>
+
+    <div class="features-row">
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1593642532973-d31b6557fa68" alt="Feature 1">
+            <h3>Feature 1</h3>
+            <p>Discover the top-notch capabilities that make this product stand out.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4" alt="Feature 2">
+            <h3>Feature 2</h3>
+            <p>Unleash the power of innovation with our state-of-the-art features.</p>
+        </div>
+        <div class="feature">
+            <img src="https://images.unsplash.com/photo-1487611459768-bd414656ea10" alt="Feature 3">
+            <h3>Feature 3</h3>
+            <p>Enhance your experience with the best-in-class technology.</p>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <button>Buy Now</button>
+    </div>
+</div>
+
+</body>
+</html>
